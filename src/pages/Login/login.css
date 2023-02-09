@@ -1,0 +1,159 @@
+/* Login  - Start */
+.animate-label {
+  position: relative;
+  margin-top: 10px;
+}
+.animate-label label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s all ease;
+  width: 100%;
+  color: var(--dark-3);
+  padding: 13px 15px;
+}
+.animate-label input:valid + label,
+.animate-label input:focus + label {
+  bottom: 20px;
+  font-size: 10px;
+}
+.animate-label input:focus + label {
+  color: var(--dark-4);
+}
+.animate-label line:before {
+  content: "";
+  position: absolute;
+  background: var(--dark-1);
+  width: 0px;
+  height: 1px;
+  left: 0;
+  right: 50%;
+  bottom: 0;
+}
+.animate-label input:focus ~ line:before {
+  width: 100%;
+  right: 100%;
+  transition: all 0.3s ease;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #969EA3;
+  padding-bottom: 6px;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 15px;
+}
+input:focus {
+  outline: none;
+}
+
+.form-control:focus,
+.form-control:hover {
+  box-shadow: none;
+  outline: none;
+  border-color: var(--egyptian-green);
+}
+
+.form-select:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.accept-box .form-check-input {
+  border-radius: 0;
+  border-color: var(--dark-4);
+  width: 19px;
+  height: 19px;
+  transition: all 0.2s ease-in-out;
+}
+.accept-box .form-check-input:focus {
+  box-shadow: none;
+}
+.accept-box .form-check-input:checked {
+  background-color: var(--egyptian-green);
+  border-color: var(--egyptian-green);
+}
+.accept-box .form-check-input:checked:focus {
+  box-shadow: none;
+}
+
+.form-check-input:checked {
+  background-color: var(--egyptian-green);
+  border-color: var(--egyptian-green);
+}
+
+.login-wrapper {
+  background-image: url("../../assets/images/login-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.login-wrapper .login-form {
+  box-shadow: 15px 120px 120px rgba(26, 34, 39, 0.15);
+}
+.login-wrapper .login-form-wrapper {
+  max-width: 442px;
+  min-height: 593px;
+}
+
+.form-control {
+  font-family: "Inter", sans-serif;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid var(--dark-4);
+}
+
+.randomClass {
+  padding: 17px 15px;
+  letter-spacing: 0.07em;
+}
+
+.toggle-password,
+.confirm-password {
+  color: var(--dark-3);
+}
+
+.pass-show-hide {
+  bottom: 10px;
+}
+
+.form-field-area {
+  padding: 36px 0;
+}
+
+.fill-color-btn {
+  height: 50px;
+  border: 0;
+  transition: all 0.3s ease-in-out;
+}
+.fill-color-btn:hover {
+  background-color: var(--gray-2);
+  color: var(--dark-1) !important;
+}
+.fill-color-btn:focus {
+  outline: none;
+}
+
+.light-color-btn {
+  height: 50px;
+  border: 0;
+  transition: all 0.3s ease-in-out;
+}
+.light-color-btn:hover {
+  background-color: var(--egyptian-green);
+  color: white !important;
+}
+
+.signup-btn {
+  text-decoration: none;
+  color: var(--egyptian-green);
+  transition: all 0.2s ease-in-out;
+}
+.signup-btn:hover {
+  color: var(--dark-1);
+}
+
+/* Login  - END*//*# sourceMappingURL=login.css.map */

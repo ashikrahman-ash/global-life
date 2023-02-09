@@ -1,0 +1,21 @@
+.quill{
+
+    height: 200px;
+    // max-width: 595px;
+    // width: 100%;
+
+    .ql-toolbar{
+        border: 1px solid #969EA3;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &::after{
+        display: none;
+      }
+    }
+
+    .ql-container{
+        border: 1px solid #969EA3;
+    }
+}

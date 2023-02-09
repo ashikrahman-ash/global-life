@@ -1,0 +1,51 @@
+.event-details-banner {
+  padding-top: 48px;
+  padding-bottom: 20px;
+}
+
+.event-yellow {
+  text-align: center;
+  padding: 3px 10px;
+  height: 21px;
+}
+
+.event-gray {
+  padding: 3px 10px;
+  text-align: center;
+}
+
+.follow-btn {
+  width: 71px;
+  height: 21px;
+}
+
+.event-information .line {
+  height: 22px;
+  width: 1px;
+  background-color: #969ea3;
+}
+
+.event-details-right .btn-green {
+  height: 50px;
+  width: 230px;
+  transition: 0.3s all linear;
+}
+.event-details-right .btn-green:hover {
+  background-color: #969ea3;
+}
+
+.event-details-right .single-border-btn {
+  border: 1px solid #969ea3;
+  height: 50px;
+  width: 230px;
+  transition: 0.3s all linear;
+}
+.event-details-right .single-border-btn:hover {
+  background-color: #0a8270;
+  color: White;
+}
+
+.event-details {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+}/*# sourceMappingURL=eventDetailsHeroArea.css.map */

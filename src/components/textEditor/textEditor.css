@@ -1,0 +1,15 @@
+.quill {
+  height: 200px;
+}
+.quill .ql-toolbar {
+  border: 1px solid #969EA3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.quill .ql-toolbar::after {
+  display: none;
+}
+.quill .ql-container {
+  border: 1px solid #969EA3;
+}/*# sourceMappingURL=textEditor.css.map */

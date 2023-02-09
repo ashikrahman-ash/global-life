@@ -1,0 +1,78 @@
+/* footer-*/
+.footer {
+    background-color: #003033;
+
+    .footer-grid {
+        @media (min-width: 1200px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+
+            .grid-item {
+                width: 100%;
+            }
+        }
+
+        .footer-widget {
+            li > a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 12px;
+                line-height: 15px;
+                letter-spacing: 0.09em;
+                transition: all 0.3s linear;
+                font-family: "Inter", sans-serif;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+                position: relative;
+                transition: 0.3s all linear;
+                &:hover {
+                    &::after {
+                        width: 100%;
+                    }
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    height: 1px;
+                    width: 0%;
+                    background-color: #fff;
+                    transition: 0.3s all linear;
+                }
+            }
+        }
+
+        .NewsletterWrapper {
+            .emailControl {
+                background: transparent;
+                border-top: 0;
+                border-right: 0;
+                width: 100%;
+                padding-bottom: 10px;
+
+                &:focus {
+                    outline: 0;
+                }
+            }
+        }
+
+        .subscribe {
+            background: #0a8270;
+            height: 49px;
+            width: 100%;
+            transition: 0.3s all linear;
+
+            &:hover {
+                background: #37b6a3;
+            }
+        }
+    }
+
+    .footer-bottom {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}
+
+/* footer- END*/

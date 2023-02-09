@@ -1,0 +1,13 @@
+.item-box {
+    gap:24px;
+
+    .item {
+        margin-top: 32px;
+        width: 275px;
+        background-color: #fff;
+        border: 2px solid #e3e8eb;
+        border-radius: 16px;
+        gap: 12px;
+        padding: 12px;
+    }
+}

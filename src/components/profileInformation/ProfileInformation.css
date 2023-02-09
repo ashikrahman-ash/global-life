@@ -1,0 +1,32 @@
+.pi-header {
+  margin-top: 72px;
+}
+
+.pi-image {
+  text-align: center;
+}
+
+.pi-image input[type=file] {
+  display: none;
+}
+
+.pi-avatar-figure {
+  position: relative;
+  width: 127px;
+  height: 127px;
+}
+
+.pi-avatar {
+  cursor: pointer;
+  width: 127px;
+  height: 127px;
+  box-sizing: border-box;
+  border-radius: 100%;
+}
+
+.pi-avatar-figcaption {
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  right: 2px;
+}/*# sourceMappingURL=ProfileInformation.css.map */

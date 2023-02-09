@@ -1,0 +1,14 @@
+.wedged-area {
+  border: 1px solid var(--gray-1);
+}
+.wedged-area .category-tags .single-category {
+  border: 1px solid var(--dark-4);
+  padding: 3px 8px;
+  transition: all 0.3s linear;
+  margin: 0 12px 12px 0;
+}
+.wedged-area .category-tags .single-category:hover {
+  background-color: var(--egyptian-green);
+  color: #ffffff;
+  border-color: var(--egyptian-green);
+}/*# sourceMappingURL=commonSideBar.css.map */

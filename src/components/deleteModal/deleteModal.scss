@@ -1,0 +1,51 @@
+.delete-modal {
+  .modal-dialog {
+    max-width: 578px;
+    width: 100%;
+    .modal-content {
+      border: none;
+      border-radius: 0;
+
+      padding: 48px;
+
+      .close-btn {
+        position: absolute;
+        top: -25px;
+        right: -25px;
+      }
+
+      .footer-btn {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        border: 1px solid #969ea3;
+        background-color: transparent;
+        padding: 15px 36px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        color: #4d585f;
+        font-family: inter;
+        transition: linear 0.3s;
+
+        &:hover {
+          background-color: #1a2227;
+          border-color: #1a2227;
+          color: #fff;
+        }
+
+        &:disabled {
+          cursor: not-allowed !important;
+          opacity: 0.5;
+
+          &:hover{
+            opacity: 0.3;
+          }
+        }
+      }
+    }
+  }
+}

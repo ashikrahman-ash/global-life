@@ -1,0 +1,69 @@
+.custom-form {
+  border: 0;
+  padding: 10px 0;
+  font-family: inter;
+}
+
+label {
+  font-family: inter;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #4d585f;
+}
+
+.step-one .title-input-box {
+  padding: 12px 24px;
+  border: 1px solid #969ea3;
+  height: 100px;
+}
+
+.step-two .radio-cat-wrapper {
+  border-bottom: 1px solid rgba(26, 34, 39, 0.15);
+  padding: 12px 0;
+}
+.step-two .radio-cat-wrapper .form-check-input {
+  height: 18px;
+  width: 18px;
+}
+.step-two .radio-cat-wrapper .form-check-input:focus {
+  box-shadow: none;
+}
+.step-two .action-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  margin-top: 36px;
+}
+
+.step-six .tags-input-container {
+  border: 1px solid #969ea3;
+  padding: 24px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.step-six .tags-input-container .tag-item {
+  background-color: #e1deff;
+  padding: 4px 8px;
+}
+.step-six .tags-input-container .tag-item .text {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #1a2227;
+}
+.step-six .tags-input-container .tags-input {
+  border: none;
+  outline: none;
+}
+.step-six .tags-input-container .tags-input:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}/*# sourceMappingURL=step.css.map */

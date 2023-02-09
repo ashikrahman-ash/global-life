@@ -1,0 +1,45 @@
+.commonBanner{
+    min-height: 355px;
+    padding: 100px 0 90px 0;
+     .searchBtnWrapper {
+        max-width: 836px;
+        position: relative;
+        width: 100%;
+        margin: auto;
+        .searchControl {
+            background: #ffffff;
+            box-shadow: 30px 30px 60px rgba(26, 34, 39, 0.15);
+            height: 65px;
+            border: 0;
+            background-image: url("../../assets/images/SearchBig.svg");
+            background-position: 20px center;
+            background-size: 24px;
+            background-repeat: no-repeat;
+            padding-left: 54px;
+            width: 100%;
+            &:focus {
+                outline: 2px solid #0a8270;
+            }
+        }
+        .searchBtn {
+            background: #0a8270;
+            width: 126px;
+            height: 49px;
+            color: #fff;
+            letter-spacing: 0.07em;
+            position: absolute;
+            right: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: 0.3s all linear;
+
+            &:hover {
+                background-color: #37b6a3;
+            }
+
+            &:focus {
+                outline: 0;
+            }
+        }
+    }
+}

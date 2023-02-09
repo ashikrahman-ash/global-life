@@ -1,0 +1,43 @@
+.happeningNextWrapper {
+  .card {
+    .category-position {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+    }
+    .card-body {
+      padding: 5px 5px 5px 0;
+
+      .card-title {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 34px;
+        // line-height: 1.5em;
+        // height: 3em;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 100%;
+        color: #1a2227;
+        margin-top: 5px !important;
+        transition: 0.3s all linear;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      .readMore {
+        transition: 0.3s all linear;
+        span {
+          transition: 0.3s all linear;
+        }
+        &:hover {
+          color: #0a8270;
+          span {
+            padding-left: 8px !important;
+          }
+        }
+      }
+    }
+  }
+}

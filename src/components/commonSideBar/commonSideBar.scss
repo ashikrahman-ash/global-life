@@ -1,0 +1,17 @@
+.wedged-area {
+    border: 1px solid var(--gray-1);
+
+    .category-tags {
+        .single-category {
+            border: 1px solid var(--dark-4);
+            padding: 3px 8px;
+            transition: all .3s linear;
+            margin: 0 12px  12px 0;
+            &:hover {
+                background-color: var(--egyptian-green);
+                color: #ffffff;
+                border-color: var(--egyptian-green);
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.myItemTab {
+    .tab-nav {
+        background: #ffffff;
+        box-shadow: 0px 30px 60px rgba(26, 34, 39, 0.1);
+        padding: 12px;
+        gap: 12px;
+
+        .tab-nav-link {
+            background-color: #f7f7f8;
+            padding: 17px 24px;
+            color: #4d585f;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 22px;
+            font-family: inter;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &:hover, &.active {
+                background-color: #0a8270;
+                color: #fff;
+
+                svg * {
+                    fill: #fff;
+                }
+            }
+
+
+        }
+    }
+}

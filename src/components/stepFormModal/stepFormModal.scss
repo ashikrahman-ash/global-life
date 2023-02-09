@@ -1,0 +1,161 @@
+.form-modal {
+    .modal-dialog {
+        max-width: 80% !important;
+        .modal-content {
+            border: none;
+            border-radius: 0;
+
+            .close-btn {
+                position: absolute;
+                top: -25px;
+                right: -25px;
+            }
+
+            .step-form {
+                display: flex;
+
+                .step-side-bar {
+                    max-width: 345px;
+                    width: 100%;
+                    padding: 36px;
+                    background-color: #f7f7f8;
+
+                    button {
+                        font-weight: 600;
+                        font-family: inter;
+                        font-size: 12px;
+                        line-height: 15px;
+                        letter-spacing: 0.07em;
+                        text-transform: uppercase;
+                        color: #0a8270;
+                        margin-bottom: 24px;
+                    }
+
+                    .stepper-nav {
+                        display: flex;
+                        flex-direction: column;
+                        .stepper-item {
+                            position: relative;
+                            padding: 0;
+                            margin: 0;
+                            padding-bottom: 24px;
+                            display: flex;
+                            align-items: center;
+
+                            &.active {
+                                .stepper-icon {
+                                    background-color: #0a8270;
+                                    border: 1px solid #0a8270;
+
+                                    .stepper-number {
+                                        color: #fff;
+                                    }
+                                }
+
+                                .stepper-label {
+                                    .stepper-title {
+                                        color: #1a2227;
+                                    }
+                                }
+                            }
+
+                            &.completed {
+                                .stepper-icon {
+                                    border: 1px solid #0a8270;
+                                }
+                            }
+
+                            &:last-child {
+                                .stepper-line {
+                                    height: 0px;
+                                    width: 0px;
+                                }
+                            }
+                            .stepper-line {
+                                display: block;
+                                content: " ";
+                                justify-content: center;
+                                position: absolute;
+                                z-index: 0;
+                                top: 28px;
+                                bottom: 0;
+                                width: 25px;
+                                transform: translate(50%);
+                                border-left-width: 1px;
+                                border-left-style: solid;
+                                border-left-color: #889fb7;
+                                height: 19px;
+                            }
+                            .stepper-icon {
+                                z-index: 1;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                transition: color 0.2s ease, background-color 0.2s ease;
+                                width: 25px;
+                                height: 25px;
+                                border: 1px solid #969ea3;
+                                border-radius: 100%;
+                                background-color: #fff;
+
+                                .stepper-number {
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    text-align: center;
+                                    color: #969ea3;
+                                    font-family: inter;
+                                }
+                            }
+                            .stepper-label {
+                                .stepper-title {
+                                    font-weight: 600;
+                                    font-size: 12px;
+                                    line-height: 15px;
+                                    letter-spacing: 0.07em;
+                                    text-transform: uppercase;
+                                    color: #969ea3;
+                                    margin: 0;
+                                    font-family: inter;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .step-info {
+                    width: 100%;
+
+                    .step-info-details {
+                        padding: 48px;
+                        max-width: 600px;
+                        width: 100%;
+                        margin: auto;
+                    }
+
+                    .step-info-footer {
+                        padding: 24px 0;
+                        margin: 0 24px;
+                        border-top: 1px solid #e3e8eb;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        // button {
+                        //     font-weight: 600;
+                        //     font-size: 12px;
+                        //     line-height: 15px;
+                        //     letter-spacing: 0.07em;
+                        //     text-transform: uppercase;
+                        //     color: #4d585f;
+                        //     padding: 12px 26px;
+                        //     border: 1px solid #969ea3;
+                        //     background-color: transparent;
+                        //     font-family: inter;
+                        // }
+                    }
+                }
+            }
+        }
+    }
+}

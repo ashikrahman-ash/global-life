@@ -1,0 +1,20 @@
+.post-modal .modal-dialog {
+  max-width: 580px;
+}
+.post-modal .modal-dialog .modal-content {
+  padding: 48px;
+  border: none;
+  border-radius: 0;
+}
+.post-modal .modal-dialog .modal-content .type {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+}
+.post-modal .modal-dialog .modal-content .close-btn {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+}/*# sourceMappingURL=postTypeModal.css.map */

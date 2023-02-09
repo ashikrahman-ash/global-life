@@ -1,0 +1,64 @@
+.tabEventCard {
+    background: #ffffff;
+    box-shadow: 0px 30px 60px rgba(26, 34, 39, 0.1);
+    padding: 36px;
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 24px;
+        padding-bottom: 24px;
+        border-bottom: 2px solid var(--gray-1);
+
+        .info {
+
+            .status {
+                font-weight: 500;
+                font-family: inter;
+                font-size: 13px;
+                line-height: 22px;
+                color: #4d585f;
+                margin-bottom: 12px;
+            }
+
+            .title {
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 34px;
+                color: #1a2227;
+                margin-bottom: 12px;
+            }
+
+            .address {
+                font-size: 14px;
+                font-family: inter;
+                line-height: 22px;
+                color: #4d585f;
+                margin-bottom: 0;
+            }
+        }
+
+        .img-box{
+            width: 180px;
+        }
+    }
+
+    .card-footer-btn {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        border: 1px solid #969ea3;
+        background-color: transparent;
+        padding: 10px 20px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        color: #4d585f;
+        font-family: inter;
+        
+    }
+}

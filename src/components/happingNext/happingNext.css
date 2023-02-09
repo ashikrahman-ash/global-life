@@ -1,0 +1,35 @@
+.happeningNextWrapper .card .category-position {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+.happeningNextWrapper .card .card-body {
+  padding: 5px 5px 5px 0;
+}
+.happeningNextWrapper .card .card-body .card-title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  color: #1a2227;
+  margin-top: 5px !important;
+  transition: 0.3s all linear;
+}
+.happeningNextWrapper .card .card-body .card-title:hover {
+  text-decoration: underline;
+}
+.happeningNextWrapper .card .card-body .readMore {
+  transition: 0.3s all linear;
+}
+.happeningNextWrapper .card .card-body .readMore span {
+  transition: 0.3s all linear;
+}
+.happeningNextWrapper .card .card-body .readMore:hover {
+  color: #0a8270;
+}
+.happeningNextWrapper .card .card-body .readMore:hover span {
+  padding-left: 8px !important;
+}/*# sourceMappingURL=happingNext.css.map */

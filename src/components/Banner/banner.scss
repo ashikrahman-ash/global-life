@@ -1,0 +1,100 @@
+.banner {
+    background-image: url(../../assets/images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    min-height: 810px;
+    padding-top: 160px;
+
+    .banner-grid-container {
+        max-width: 830px;
+        width: 100%;
+        margin: 0 auto;
+        .profileHints {
+            max-width: 270px;
+            width: 100%;
+            height: 21px;
+            background: #e1deff;
+            border-radius: 100px;
+        }
+
+        .communityMemberShip {
+            .locationTrack {
+                background: #f8fffe;
+                border: 1px solid #98ccc4;
+                border-radius: 100px;
+                max-width: 361px;
+                height: 42px;
+                width: 100%;
+            }
+        }
+
+        .bannerItemWrapper {
+            position: absolute;
+            width: 100%;
+            bottom: 5%;
+            .bannerItem {
+                padding: 24px;
+                background-color: rgba(255, 255, 255, 0.85);
+                box-shadow: 30px 30px 60px rgba(26, 34, 39, 0.05);
+                backdrop-filter: blur(6px);
+            }
+        }
+
+        // @media (min-width: 1200px) {
+        //     padding-top: 280px;
+        //     padding-bottom: 320px;
+        // }
+
+        // @media (max-width: 1200px) {
+        //     padding-top: 150px;
+        //     padding-bottom: 200px;
+        // }
+
+        // @media (max-width: 576px) {
+        //     padding-top: 80px;
+        //     padding-bottom: 150px;
+        // }
+
+            .searchBtnWrapper {
+                max-width: 836px;
+                position: relative;
+                width: 100%;
+                .searchControl {
+                    background: #ffffff;
+                    box-shadow: 30px 30px 60px rgba(26, 34, 39, 0.15);
+                    height: 65px;
+                    border: 0;
+                    background-image: url("../../assets/images/SearchBig.svg");
+                    background-position: 20px center;
+                    background-size: 24px;
+                    background-repeat: no-repeat;
+                    padding-left: 54px;
+                    width: 100%;
+                    &:focus {
+                        outline: 2px solid #0a8270;
+                    }
+                }
+                .searchBtn {
+                    background: #0a8270;
+                    width: 126px;
+                    height: 49px;
+                    color: #fff;
+                    letter-spacing: 0.07em;
+                    position: absolute;
+                    right: -20px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    transition: 0.3s all linear;
+
+                    &:hover {
+                        background-color: #37b6a3;
+                    }
+
+                    &:focus {
+                        outline: 0;
+                    }
+                }
+            }
+    }
+}
